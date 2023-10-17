@@ -1,0 +1,82 @@
+
+
+.loginpage {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #f6f6f7;
+  }
+
+
+  .gradientBox {
+    background: linear-gradient(114deg, #498bdc 20%, #6236ff 53%);
+    padding-left: 3%;
+    padding-top: 3%;
+    color: #fff;
+}
+
+.qbIconBox{
+    height:60px;
+    width: auto;
+    margin-bottom: 10%;
+}
+.qbIconBox>img{
+    height:100%;
+    width: auto;
+}
+  
+  .formBox{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    margin-top: 10%;
+  }
+  
+  .loginCred {
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: #212b36;
+}
+
+.loginDesc {
+  margin: 8px 0 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: -0.34px;
+  color: #7b7f82;
+  margin-bottom: 20px;
+}
+
+.posMachine{
+    height: auto;
+    width: auto;
+}
+
+
+.mainBoxFirstTimeSetuP{
+  background-image: url("../assets/images/firstTimeSetUp.svg");
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .loginpage {
+        display: block;
+        background: #f6f6f7;
+      }
+ }
