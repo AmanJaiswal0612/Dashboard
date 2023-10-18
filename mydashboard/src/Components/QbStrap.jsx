@@ -234,9 +234,9 @@ export const DashBoardCard = (props) => {
         </Col>
         <Col span={16}>
          
-            <Text level={2} style={{ color: "lightgray", lineHeight: "0px" }}>
+            <p style={{ color: "lightgray", lineHeight: "0px" }}>
               {props.title}
-            </Text>
+            </p>
             <p
               style={{ fontSize: "25px", fontWeight: "800", lineHeight: "0px" }}
             >
