@@ -6,14 +6,14 @@ import Demo from './Pages/Demo';
 import DemoReportOne from './Pages/Reports/DemoReportOne';
 import DemoReportTwo from './Pages/Reports/DemoReportTwo';
 import FirstTimeSetup from "./Pages/FirstTimeSetup";
-import Cards from "./Pages/Cards/Cards";
-import Users from "./Pages/Users/Users";
-import CreateUsers from "./Pages/Users/CreateUsers";
-import EditUsers from "./Pages/Users/EditUsers";
-import CreateCards from "./Pages/Cards/CreateCards";
-import EditCards from "./Pages/Cards/EditCards";
+import Cards from "./Pages/Cards/Customers";
+import CreateCards from "./Pages/Cards/CreateCustomers";
+import EditCards from "./Pages/Cards/EdirCustomers";
 import Promoto from "./Pages/Promoto";
 import Help from "./Pages/Help";
+import Products from "./Pages/Users/Products";
+import CreateProducts from "./Pages/Users/CreateProducts";
+import EditProducts from "./Pages/Users/EditProducts";
 
  const router = createBrowserRouter([
     {
@@ -34,15 +34,15 @@ import Help from "./Pages/Help";
         },
         {
           path: "/products",
-          element: <Users/>,
+          element: <Products/>,
         },
         {
           path: "/products/create",
-          element: <CreateUsers/>,
+          element: <CreateProducts/>,
         },
         {
           path: "/products/edit",
-          element: <EditUsers/>,
+          element: <EditProducts/>,
         },
 
         {

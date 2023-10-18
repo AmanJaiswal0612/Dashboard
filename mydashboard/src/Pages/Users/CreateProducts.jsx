@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CreateUsers = () => {
+const CreateProducts = () => {
   return (
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates quod minus! Velit quas quos nesciunt corrupti tempora voluptatibus, dolorem consequuntur perferendis facere corporis asperiores autem suscipit rem aut quam?
     Id amet molestias aliquam similique nam ex, obcaecati, totam, dolorum porro vel ullam sunt inventore recusandae ipsam fuga. Laboriosam dolorem perspiciatis rem totam nulla ea odio iusto facilis magnam possimus.
@@ -338,4 +338,4 @@ const CreateUsers = () => {
   )
 }
 
-export default CreateUsers
+export default CreateProducts;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const EditUsers = () => {
+const EditProducts = () => {
     const navigate= useNavigate()
 
   return (
@@ -210,4 +210,4 @@ const EditUsers = () => {
   )
 }
 
-export default EditUsers
+export default EditProducts;
